@@ -10,14 +10,31 @@
         android:id="@+id/progressBar2" />
 
     <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar4" />
+
+    <ProgressBar
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/progressBar3" />
 
-    <ProgressBar
-        style="?android:attr/progressBarStyleSmall"
+    <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/progressBar4" />
+        android:id="@+id/spinner" />
+
+    <CheckedTextView
+        android:text="CheckedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton" />
 </LinearLayout>

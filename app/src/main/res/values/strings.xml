@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TamrinJalase5</string>
+    <string name="firsttext">Turn on notifications ?</string>
+    <string name="SecoundText">We can let you know when someone messages you , or notify you about other important account activity .</string>
+    <string name="Button1">Yes , Notify Me</string>
+    <string name="Button2">No</string>
+</resources>

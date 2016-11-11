@@ -1,11 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/style2_background"
 
-
+    >
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="45sp"
+        android:text="@string/Style2_Path"
+        android:textAlignment="center"
+        android:background="@drawable/style2_path"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:typeface="serif"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/style2_firsttext"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:textColor="@color/style2_textcolor"
+
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300sp"
+    android:src="@mipmap/style2_piccenter"
+    android:layout_marginTop="5sp"
+
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="60sp"
+    android:layout_marginLeft="60sp"
+    android:layout_marginRight="60sp"
+    android:text="@string/style2_button1"
+    android:textColor="@android:color/white"
+    android:background="@color/style2_colorbutton1"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="5sp"
+
+        >
+        <Button
+        android:layout_marginLeft="60sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="@string/style2_button2"
+            android:background="@color/style2_path_first"
+           android:layout_marginRight="3sp"
+            />
+        <Button
+            android:layout_marginLeft="3sp"
+            android:background="@color/style2_path_first"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:layout_weight="1"
+            android:text="@string/style2_button3"
+
+            />
+    </LinearLayout>
+
 
 </LinearLayout>

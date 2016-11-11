@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#4c4c4c</color>
     <color name="colorAccent">#4c4c4c</color>
     <color name="redbutton">#ff5a60</color>
+    <color name="style2_path_first">#f03524</color>
+    <color name="style2_path_center">#df3121</color>
+    <color name="style2_path_end">#cf2e1f</color>
+    <color name="style2_background">#f2eee8</color>
+    <color name="style2_textcolor">#a6a6a6</color>
+    <color name="style2_colorbutton1">#537bbc</color>
 </resources>

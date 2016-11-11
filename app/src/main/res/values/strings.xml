@@ -4,4 +4,9 @@
     <string name="SecoundText">We can let you know when someone messages you , or notify you about other important account activity .</string>
     <string name="Button1">Yes , Notify Me</string>
     <string name="Button2">No</string>
+    <string name="Style2_Path">path</string>
+    <string name="style2_firsttext">Sign in to see your photos and videos with your close friends and family</string>
+    <string name="style2_button1">Sign in with Facebook</string>
+    <string name="style2_button2">Log In</string>
+    <string name="style2_button3">Sign Up</string>
 </resources>

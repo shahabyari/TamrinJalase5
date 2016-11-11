@@ -58,6 +58,14 @@
         android:background="@drawable/button2"
         />
 
+    <android.support.design.widget.FloatingActionButton
+    android:layout_height="50sp"
+        android:layout_width="50sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="300sp"
+            android:src="@mipmap/forward"
+        android:id="@+id/fb"
+        />
 
 
 </LinearLayout>

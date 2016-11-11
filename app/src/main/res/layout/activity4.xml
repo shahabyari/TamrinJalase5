@@ -97,4 +97,22 @@
 
 
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_height="50sp"
+            android:layout_width="50sp"
+            android:layout_marginLeft="20sp"
+            android:layout_weight="1"
+            android:src="@mipmap/back"
+            android:id="@+id/fbB"
+            />
+
+
+    </LinearLayout>
 </LinearLayout>

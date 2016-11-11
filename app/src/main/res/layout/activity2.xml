@@ -30,7 +30,7 @@
         />
 <ImageView
     android:layout_width="match_parent"
-    android:layout_height="300sp"
+    android:layout_height="250sp"
     android:src="@mipmap/style2_piccenter"
     android:layout_marginTop="5sp"
 
@@ -74,7 +74,32 @@
             android:text="@string/style2_button3"
 
             />
-    </LinearLayout>
 
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:layout_marginTop="10sp"
+    >
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="50sp"
+        android:layout_width="50sp"
+        android:layout_marginLeft="20sp"
+        android:layout_weight="1"
+        android:src="@mipmap/back"
+        android:id="@+id/fbB"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="50sp"
+        android:layout_width="50sp"
+        android:layout_marginLeft="240sp"
+        android:layout_weight="1"
+        android:src="@mipmap/forward"
+        android:id="@+id/fbF"
+        />
+
+</LinearLayout>
 
 </LinearLayout>

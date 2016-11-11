@@ -12,13 +12,15 @@
         android:weightSum="2"
         >
         <TextView
+            android:id="@+id/cor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="<"
+            android:text="@string/style4_cor"
             android:layout_weight="1"
             android:textSize="40sp"
             android:textColor="@android:color/white"
             android:paddingLeft="20sp"
+            android:paddingTop="10sp"
             />
         <TextView
             android:textSize="24sp"
@@ -92,6 +94,7 @@
         android:paddingLeft="20sp"
         android:textSize="20sp"
         android:drawableLeft="@mipmap/lock2"
+
 
         />
 </LinearLayout>

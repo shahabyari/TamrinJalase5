@@ -11,8 +11,162 @@
         android:textSize="25sp"
         android:paddingTop="8sp"
         android:id="@+id/toolbar"
-
+        android:paddingLeft="20sp"
 
         />
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/style3_textedit"
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/style3_background"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_marginTop="20sp"
+                        >
+                        <EditText
+                            android:layout_marginLeft="30sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:hint="First Name"
+                            android:paddingLeft="10sp"
+                            android:layout_weight="1"
+                            android:background="@drawable/style3_textedit"
+                            />
+                        <EditText
+                            android:layout_marginRight="30sp"
+                            android:paddingLeft="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:hint="Last Name"
+                            android:layout_weight="1"
+                            android:background="@drawable/style3_textedit"
+                            />
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Your name will be publicly displayed on Etsy . Both are optional."
+                       android:layout_marginTop="10sp"
+                        android:textAlignment="textStart"
+                        android:paddingLeft="30sp"
+                        android:paddingRight="30sp"
+                        />
+                    <EditText
+                        android:layout_marginRight="30sp"
+                        android:paddingLeft="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:hint="Your Email"
+                        android:layout_marginLeft="30sp"
+                        android:background="@drawable/style3_textedit"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_marginTop="20sp"
+                        >
+                        <EditText
+                            android:layout_marginLeft="30sp"
+                            android:layout_marginRight="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:hint="Password"
+                            android:paddingLeft="10sp"
+                            android:layout_weight="1"
+                            android:background="@drawable/style3_textedit"
+                            />
+                        <EditText
+                            android:layout_marginRight="30sp"
+                            android:paddingLeft="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50sp"
+                            android:hint="Confirm Password"
+                            android:layout_weight="1"
+                            android:background="@drawable/style3_textedit"
+                            />
+
+                    </LinearLayout>
+                    <EditText
+                        android:layout_marginLeft="30sp"
+                        android:layout_marginRight="30sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:hint="Username"
+                        android:paddingLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:background="@drawable/style3_textedit"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="By registering , you confirm that you accept our Term of Use and Privacy Policy"
+                        android:layout_marginTop="10sp"
+
+                        android:layout_marginLeft="30sp"
+                        android:layout_marginRight="30sp"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="60sp"
+                        android:layout_marginLeft="30sp"
+                        android:layout_marginRight="30sp"
+                        android:layout_marginTop="20sp"
+                        android:text="Register"
+
+                        android:background="@drawable/style3_button"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
 
 </LinearLayout>

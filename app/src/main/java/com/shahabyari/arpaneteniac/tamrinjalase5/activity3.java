@@ -15,10 +15,9 @@ public class activity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity3);
+
         Typeface dn = Typeface.createFromAsset(getAssets(),"fonts/fontawesome-webfont.ttf");
-        TextView tv = (TextView) findViewById(R.id.toolbar);
+        TextView tv=(TextView) findViewById(R.id.toolbar);
         tv.setTypeface(dn);
-
-
     }
 }

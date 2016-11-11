@@ -10,5 +10,7 @@
     <color name="style2_background">#f2eee8</color>
     <color name="style2_textcolor">#a6a6a6</color>
     <color name="style2_colorbutton1">#537bbc</color>
-    <color name="style3_colortoolbar">#d15600</color>
+    <color name="style3_colortoolbar">#ec2121</color>
+    <color name="style3_colortextborder">#e5e4e3</color>
+    <color name="style3_background">#f5f5f1</color>
 </resources>

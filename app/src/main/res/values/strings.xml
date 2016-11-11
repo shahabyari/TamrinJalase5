@@ -9,4 +9,5 @@
     <string name="style2_button1">Sign in with Facebook</string>
     <string name="style2_button2">Log In</string>
     <string name="style2_button3">Sign Up</string>
+    <string name="style3_toolbar">&#xf104;&#xf2c0;Sign In</string>
 </resources>
